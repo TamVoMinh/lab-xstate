@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "moduleResolution":"node",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "rootDir": "src",
+    "outDir":"./.build"
+  },
+  "ts-node": {
+    "esm": true,
+    "files": true
+  },
+  "lib": ["es6"],
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
